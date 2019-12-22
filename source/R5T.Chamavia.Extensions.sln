@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Chamavia.Extensions.Construction", "R5T.Chamavia.Extensions.Construction\R5T.Chamavia.Extensions.Construction.csproj", "{EDBA2B25-9A8E-45EA-898D-2C894DE4132D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Chamavia.Extensions.Construction", "R5T.Chamavia.Extensions.Construction\R5T.Chamavia.Extensions.Construction.csproj", "{EDBA2B25-9A8E-45EA-898D-2C894DE4132D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Chamavia.Extensions", "R5T.Chamavia.Extensions\R5T.Chamavia.Extensions.csproj", "{D9F96B88-46A7-4D6D-B076-B365486D51FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Chamavia.Extensions", "R5T.Chamavia.Extensions\R5T.Chamavia.Extensions.csproj", "{D9F96B88-46A7-4D6D-B076-B365486D51FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Chamavia.Extensions.Testing", "R5T.Chamavia.Extensions.Testing\R5T.Chamavia.Extensions.Testing.csproj", "{D613BAC7-19EE-4E20-A809-575B0CAA9DFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Chamavia.Extensions.Testing", "R5T.Chamavia.Extensions.Testing\R5T.Chamavia.Extensions.Testing.csproj", "{D613BAC7-19EE-4E20-A809-575B0CAA9DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{829CA82F-E9D2-496D-8ABF-0F87A31306DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Chamavia", "..\..\R5T.Chamavia\source\R5T.Chamavia\R5T.Chamavia.csproj", "{4425F81A-F467-4E12-982B-B01D78C78061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EDBA2B25-9A8E-45EA-898D-2C894DE4132D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{D613BAC7-19EE-4E20-A809-575B0CAA9DFA}.Release|x64.Build.0 = Release|Any CPU
 		{D613BAC7-19EE-4E20-A809-575B0CAA9DFA}.Release|x86.ActiveCfg = Release|Any CPU
 		{D613BAC7-19EE-4E20-A809-575B0CAA9DFA}.Release|x86.Build.0 = Release|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Debug|x64.Build.0 = Debug|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Debug|x86.Build.0 = Debug|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Release|x64.ActiveCfg = Release|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Release|x64.Build.0 = Release|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Release|x86.ActiveCfg = Release|Any CPU
+		{4425F81A-F467-4E12-982B-B01D78C78061}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4425F81A-F467-4E12-982B-B01D78C78061} = {829CA82F-E9D2-496D-8ABF-0F87A31306DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {809759CE-6224-4BA2-8657-54BD6218FB8C}
 	EndGlobalSection
 EndGlobal
