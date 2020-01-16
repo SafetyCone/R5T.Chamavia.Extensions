@@ -3,7 +3,7 @@
 using Microsoft.Extensions.Configuration;
 
 
-namespace R5T.Chamavia
+namespace R5T.Chamavia.Extensions
 {
     public static class ConfigurationHelper
     {
